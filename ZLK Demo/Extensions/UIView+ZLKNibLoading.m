@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 AppPartner. All rights reserved.
 //
 
-#import "UIView+NibLoading.h"
+#import "UIView+ZLKNibLoading.h"
 
 @implementation UIView (ZLKNibLoading)
 
