@@ -14,6 +14,7 @@
 		3172B8F319E6D7EB0078D954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3172B8F219E6D7EB0078D954 /* Images.xcassets */; };
 		3172B8F619E6D7EB0078D954 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3172B8F419E6D7EB0078D954 /* LaunchScreen.xib */; };
 		3172B90219E6D7EB0078D954 /* ZLK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172B90119E6D7EB0078D954 /* ZLK_DemoTests.m */; };
+		3172B90E19E6D86B0078D954 /* UIView+ZLKNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 3172B90D19E6D86B0078D954 /* UIView+ZLKNibLoading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3172B8FB19E6D7EB0078D954 /* ZLK DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZLK DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3172B90019E6D7EB0078D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3172B90119E6D7EB0078D954 /* ZLK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLK_DemoTests.m; sourceTree = "<group>"; };
+		3172B90C19E6D86B0078D954 /* UIView+ZLKNibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ZLKNibLoading.h"; path = "Extensions/UIView+ZLKNibLoading.h"; sourceTree = "<group>"; };
+		3172B90D19E6D86B0078D954 /* UIView+ZLKNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZLKNibLoading.m"; path = "Extensions/UIView+ZLKNibLoading.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		3172B8E419E6D7EB0078D954 /* ZLK Demo */ = {
 			isa = PBXGroup;
 			children = (
+				3172B90B19E6D8430078D954 /* Extensions */,
 				3172B8E919E6D7EB0078D954 /* AppDelegate.h */,
 				3172B8EA19E6D7EB0078D954 /* AppDelegate.m */,
 				3172B8EC19E6D7EB0078D954 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				3172B90019E6D7EB0078D954 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3172B90B19E6D8430078D954 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3172B90C19E6D86B0078D954 /* UIView+ZLKNibLoading.h */,
+				3172B90D19E6D86B0078D954 /* UIView+ZLKNibLoading.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3172B8EE19E6D7EB0078D954 /* ViewController.m in Sources */,
+				3172B90E19E6D86B0078D954 /* UIView+ZLKNibLoading.m in Sources */,
 				3172B8EB19E6D7EB0078D954 /* AppDelegate.m in Sources */,
 				3172B8E819E6D7EB0078D954 /* main.m in Sources */,
 			);
