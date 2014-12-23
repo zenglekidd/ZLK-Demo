@@ -7,4 +7,5 @@ ToDo:
 
 1. RGB macro. Hex macro
 2. Theme color. Tint color
-3. XAlign
+3. XAlign for Xcode
+4. TintColor example
