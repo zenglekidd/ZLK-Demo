@@ -21,6 +21,11 @@
                         <constraint firstAttribute="width" constant="100" id="1zX-eN-lIy"/>
                         <constraint firstAttribute="height" constant="100" id="x6e-sQ-8fj"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                            <color key="value" red="0.43052537042522032" green="0.61227099309226285" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

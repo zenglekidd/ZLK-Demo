@@ -10,4 +10,6 @@
 IB_DESIGNABLE
 @interface ZLKQuartzView : UIView
 
+@property (strong, nonatomic) IBInspectable UIColor *fillColor;
+
 @end

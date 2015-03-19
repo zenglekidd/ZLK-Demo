@@ -14,7 +14,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
-    [[UIColor redColor] setFill];
+    [self.fillColor setFill];
     UIRectFill(self.bounds);
 }
 
