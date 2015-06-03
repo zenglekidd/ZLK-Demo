@@ -11,7 +11,9 @@ ToDo:
 4. TintColor example
 
 View Controller Style
+----
 
+```
 @property (nonatiomic, strong) UIButton *aButton;
 ...
 
@@ -35,4 +37,4 @@ View Controller Style
 
 #pragma mark - getters and setters
 ...
-
+```
