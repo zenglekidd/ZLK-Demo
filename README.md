@@ -38,3 +38,11 @@ View Controller Style
 #pragma mark - getters and setters
 ...
 ```
+
+Note:
+* Use getter and setter for all properties 
+* only do addSubview in viewDidLoad
+* set frame in viewWillAppear
+* Add notification in viewDidAppear
+* Init properties in setter and getter
+* Use protocol name in #pragma mark, command click will jump to define
