@@ -46,3 +46,4 @@ Note:
 * Add notification in viewDidAppear
 * Init properties in setter and getter
 * Use protocol name in #pragma mark, command click will jump to define
+* Reduce private methods in VC, put in a category, or create a module
